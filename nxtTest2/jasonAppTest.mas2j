@@ -1,0 +1,16 @@
+MAS jasonAppTest {
+
+	infrastructure: Centralised
+	
+	agents:
+		scout;
+		doctor;
+		
+	classpath:
+		"C:/Program Files (x86)/leJOS NXJ/lib/pc/*.jar";
+		"C:/Program Files (x86)/leJOS NXJ/lib/pc/3rdparty/*.jar";
+		
+		aslSourcePath:
+			"src/asl";
+
+}
